@@ -46,8 +46,7 @@ I found that starting with the HTML elements and then working on styling next wa
   <img src="./img/image-product-mobile.jpg" alt="Perfume" />
 </picture>
 
-#By adding the
-<source />
+### By adding the <source />
 tag, I was able to switch between the desktop image and mobile images that were
 provided at certain screen width.
 ```
@@ -65,9 +64,5 @@ provided at certain screen width.
   --ff-accent: "Fraunces", serif;
   --ff-base: "Montserrat", sans-serif;
 }
-By using the :root property I was able to easily keep track of items that I knew I would be frequently using throughout the project. This streamlined the process and made sure that all components were identical throughout.
+### By using the :root property I was able to easily keep track of items that I knew I would be frequently using throughout the project. This streamlined the process and made sure that all components were identical throughout.
 ```
-
-### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
