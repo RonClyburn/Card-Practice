@@ -45,7 +45,8 @@ I found that starting with the HTML elements and then working on styling next wa
   <source srcset="./img/image-product-desktop.jpg" media="(min-width: 550px)" />
   <img src="./img/image-product-mobile.jpg" alt="Perfume" />
 </picture>
-By adding the
+
+#By adding the
 <source />
 tag, I was able to switch between the desktop image and mobile images that were
 provided at certain screen width.
