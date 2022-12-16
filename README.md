@@ -44,12 +44,11 @@ I found that starting with the HTML elements and then working on styling next wa
 <picture class="product__img">
   <source srcset="./img/image-product-desktop.jpg" media="(min-width: 550px)" />
   <img src="./img/image-product-mobile.jpg" alt="Perfume" />
-</picture>
+</picture>```
 
-### By adding the <source />
+By adding the <source>
 tag, I was able to switch between the desktop image and mobile images that were
 provided at certain screen width.
-```
 
 ```css
 :root {
@@ -63,6 +62,6 @@ provided at certain screen width.
   --fw-bold: 700;
   --ff-accent: "Fraunces", serif;
   --ff-base: "Montserrat", sans-serif;
-}
-### By using the :root property I was able to easily keep track of items that I knew I would be frequently using throughout the project. This streamlined the process and made sure that all components were identical throughout.
-```
+}```
+
+  By using the :root property I was able to easily keep track of items that I knew I would be frequently using throughout the project. This streamlined the process and made sure that all components were identical throughout.
