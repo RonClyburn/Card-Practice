@@ -1,0 +1,102 @@
+:root {
+  --dark-cyan: hsl(158, 36%, 37%);
+  --darker-cyan: hsl(158, 36%, 22%);
+  --cream: hsl(30, 38%, 92%);
+  --very-dark-blue: hsl(212, 21%, 14%);
+  --dark-gray-blue: hsl(228, 12%, 48%);
+  --white: hsl(0, 0%, 100%);
+  --fw--regular: 500;
+  --fw-bold: 700;
+  --ff-accent: "Fraunces", serif;
+  --ff-base: "Montserrat", sans-serif;
+}
+img,
+picture {
+  display: block;
+  max-width: 100%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: var(--ff-base);
+  font-weight: var(--fw--regular);
+  color: var(--dark-gray-blue);
+  font-size: 1.4rem;
+  background-color: var(--cream);
+  display: grid;
+  place-content: center;
+  margin: 1rem;
+}
+.product {
+  background-color: var(--white);
+  border-radius: 1.5rem;
+  overflow: hidden;
+  --padding: 2rem;
+  display: grid;
+  max-width: 600px;
+}
+@media (min-width: 550px) {
+  .product {
+    grid-template-columns: 1fr 1fr;
+  }
+  img {
+    height: 100%;
+  }
+}
+.product__content {
+  display: grid;
+  padding: var(--padding);
+  gap: 1.5rem;
+}
+.flex-group {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.button {
+  color: var(--white);
+  background: var(--dark-cyan);
+  border-radius: 0.75rem;
+  border: none;
+  font-family: var(--ff-base);
+  padding: 1.5rem 2rem;
+  font-weight: var(--fw-bold);
+  cursor: pointer;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.button:hover {
+  background-color: var(--darker-cyan);
+}
+
+.title-accent {
+  letter-spacing: 0.5rem;
+}
+.product__title {
+  font-size: 3rem;
+  color: var(--very-dark-blue);
+  font-family: var(--ff-accent);
+}
+p {
+  line-height: 2.5rem;
+}
+.price {
+  font-size: 3.3rem;
+  font-family: var(--ff-accent);
+  color: var(--dark-cyan);
+}
+.original__price {
+  text-decoration: line-through;
+}
