@@ -23,7 +23,7 @@ Users should be able to:
 
 ## My process
 
-I found that starting with the HTML elements and then working on styling next was an effecient way to complete this task. I used an ```<article>```html tag to create the card, and used ```<div>```'s to seperate different collections of the content inside. I approached this with a mobile first view and then set a @media query with a minimum screen width and different display properties to allow the content to be responsive with differenet screen sizes. I then set a maximum height on the card to ensure it would stay at the size needed per the design preview.
+I found that starting with the HTML elements and then working on styling next was an effecient way to complete this task. I used an ```<article>```html tag to create the card, and used ```<div>```'s to seperate different collections of the content inside. I approached this with a mobile first view and then set a @media query with a minimum screen width and different display properties to allow the content to be responsive with different screen sizes. I then set a maximum height on the card to ensure it would stay at the size needed per the design preview.
 
 ### Built with
 
